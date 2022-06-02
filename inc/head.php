@@ -42,7 +42,7 @@ function breadcrumb() {
     $activeClass = "flex-shrink bg-gray-200 text-gray-600 px-3 py-2 rounded-md text-sm font-medium";
     $inactiveClass = "flex-shrink bg-gray-100 text-gray-400 hover:bg-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
 
-    $home = '<a href="/" class="'.$inactiveClass.'">back</a>';
+    $home = '<a href="/" class="'.$inactiveClass.'">..</a>';
     $home .= '<a class="text-gray-200 py-2 text-sm font-medium">/</a>';
     echo $home;
     foreach ($breadcrumbs as $key => $crumb) {
